@@ -1,0 +1,199 @@
+CRITICAL - 2021-12-24 12:03:22 --> Invalid file: keranjang/detail.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keranjang/detai...')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/detai...', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(85): view('keranjang/detai...')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('5')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2021-12-24 12:03:40 --> Invalid file: keranjang/detail.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keranjang/detai...')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/detai...', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(85): view('keranjang/detai...')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('1')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2021-12-24 12:30:45 --> Too few arguments to function App\Controllers\Keranjang::tambah(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->tambah()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 12:31:14 --> Too few arguments to function App\Controllers\Keranjang::tambah(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->tambah()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 12:31:28 --> Too few arguments to function App\Controllers\Keranjang::tambah(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->tambah()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 12:38:33 --> Too few arguments to function App\Controllers\Keranjang::tambah(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->tambah()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 13:40:29 --> Call to a member function where() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 13:41:53 --> Call to a member function findAll() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 13:41:54 --> Call to a member function findAll() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 13:41:56 --> Call to a member function findAll() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->index()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 14:00:48 --> Argument 2 passed to CodeIgniter\Session\Session::push() must be of the type array, int given, called in C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php on line 55
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(55): CodeIgniter\Session\Session->push('jml_keranjang', 4)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->tambah('16')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#6 {main}
+CRITICAL - 2021-12-24 14:12:37 --> Call to undefined method CodeIgniter\Session\Session::unset()
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->tambah('16')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 20:10:01 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\keranjang\detail.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 32, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/detai...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(87): view('keranjang/detai...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('4')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2021-12-24 20:14:14 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\keranjang\detail.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 32, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/detai...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(87): view('keranjang/detai...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('4')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2021-12-24 20:14:36 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\keranjang\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 33, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/detai...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(87): view('keranjang/detai...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('4')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2021-12-24 20:15:35 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\keranjang\detail.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 32, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/detai...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(87): view('keranjang/detai...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('4')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2021-12-24 23:17:57 --> Invalid file: keranjang/.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keranjang/.php')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(94): view('keranjang/')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->update('5')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2021-12-24 23:19:09 --> Invalid file: /keranjang.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/keranjang.php')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/keranjang', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(94): view('/keranjang')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->update('5')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2021-12-24 23:20:22 --> Invalid argument supplied for foreach()
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\keranjang\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\src\\Project-...', 27, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/keranjang/inde...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(94): view('/keranjang/inde...')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->update('5')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2021-12-24 23:25:53 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 23:26:12 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 23:26:16 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-24 23:26:22 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}

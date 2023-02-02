@@ -1,0 +1,6 @@
+CRITICAL - 2021-10-19 17:13:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\src\myCI4app\system\CodeIgniter.php(218): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\src\myCI4app\system\CodeIgniter.php(176): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\src\myCI4app\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\src\myCI4app\spark(45): require('C:\\src\\myCI4app...')
+#4 {main}

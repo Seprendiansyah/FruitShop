@@ -1,0 +1,288 @@
+body {
+    background: #F7F7F7;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+table > tbody > tr > * {
+    vertical-align: middle;
+}
+
+.sampul {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.gambarCreate {
+    width: 100%;
+    height: auto;
+    max-width: 240px;
+}
+
+.card .card-body .form-group {
+    margin-bottom: 1rem;
+}
+
+.card .card-body .form-group .form-control {
+    margin-top: 0.2rem;
+}
+
+#cardLogin {
+    position: inherit;
+    box-sizing: border-box;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 24px 46px -4px rgba(0, 0, 0, 0.18);
+}
+
+#cardLogin #cardInputLogin {
+    border-radius: 20px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#cardLogin #cardInputLogin #cardHeaderLogin {
+    border-radius: 20px;
+    background: white;
+    border: 0px;
+    text-align: center;
+}
+
+#cardLogin #cardInputRegister {
+    border-radius: 20px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#cardLogin #cardInputRegister #cardHeaderRegister {
+    border-radius: 20px;
+    background: white;
+    border: 0px;
+    text-align: center;
+}
+
+#cardLogin #cardImgLogin {
+    display: flex;
+    background: linear-gradient(330.35deg, #55546D -17.98%, rgba(134, 32, 215, 0) 111.54%);
+    border-radius: 20px;
+}
+
+#cardKrj {
+    border-radius: 20px;
+    box-shadow: 0px 24px 46px -4px rgba(0, 0, 0, 0.18);
+}
+
+#cardKrj #cardKeranjangDetail {
+    border-radius: 20px;
+    margin: 18px;
+}
+
+#cardKrj #cardKeranjangDetail #img {
+    border-radius: 18px;
+}
+
+#cardKrj #cardInputLogin {
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+#cardLogin #cardImgLogin #figure {
+    display: flex;
+    padding: 2rem;
+}
+
+#cardLogin #cardImgLogin #figure #imgLogin {
+    display: flex;
+}
+
+#nav-tabs-barang {
+    margin-top: 1rem;
+}
+
+#nav-tabContent {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#nav-tabContent #nav-home #pager {
+    margin-top: 1.5rem;
+}
+
+#nav-tabContent #nav-profile #pager {
+    margin-top: 1.5rem;
+}
+
+#nav-tabContent #nav-contact #pager {
+    margin-top: 1.5rem;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e27f2e;
+}
+
+.total-barang {
+    font-size: medium;
+}
+
+#cardKeranjang {
+    border-radius: 20px;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+}
+
+#accordionDetailBarang {
+    border-radius: 20px;
+}
+
+#imgBerhasil {
+    width: 100%;
+    height: auto;
+    max-width: 460px;
+}
+
+.tabAdmin {
+    border-radius: 20px;
+    background: white;
+    padding: 1rem;
+}
+
+#banner {
+    width: 1200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#cardBarang {
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#cardBarang:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+a#main::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+}
+
+#tambahK {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#tambahK:hover,
+#tambahK:focus {
+  box-shadow: 0 8px 8px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22);
+  transform: translateY(-0.25em);
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+#imgHome {
+    width: 75%;
+    height: auto;
+}
+
+#cardGlass {
+    padding: 40px;
+    background: #ffffff62;
+    backdrop-filter: blur(5px);
+}
+
+#btnHomeP:hover,
+#btnHomeP:focus {
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 4px 4px rgba(0,0,0,0.22);
+    transform: translateY(-0.25em);
+}
+
+#imgHomeM {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#cardHomeM:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: translateY(-0.25em);
+}
+
+#cardTrans {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.212);
+    backdrop-filter: blur(4px);
+}
+
+a#home::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: ' ';
+}
+
+#cardHomeK {
+    border-radius: 20px;
+}
+
+#cardFooterH {
+    margin-top: 12rem;
+}
+
+#footerHome {
+    background-image: url('/img/Vector3.svg');
+    padding-top: 10rem;
+}
+
+@media only screen and (min-width: 600px) {
+    #navsAdmin {
+        display: flex;
+    }
+    
+    #navsAdmin #v-pills-tab {
+        display: flex;
+        flex-direction: column;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #cardGlass {
+        padding: 40px;
+        position: absolute;
+        top: 80px;
+        width: 40%;
+        height: auto;
+        background: #ffffff62;
+        backdrop-filter: blur(5px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pencarian {
+        flex-direction: column;
+    }
+}

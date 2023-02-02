@@ -1,0 +1,13 @@
+CRITICAL - 2021-12-17 14:55:47 --> include_once(/kategori/index.php): failed to open stream: No such file or directory
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\barang2\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/k...', 'C:\\src\\Project-...', 38, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\barang2\index.php(38): include_once()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('barang2/index', Array, true)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Barang2.php(9): view('barang2/index')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang2->index()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang2))
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#11 {main}

@@ -1,0 +1,32 @@
+ERROR - 2021-12-26 10:38:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-12-26 10:38:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\BaseController.php(55): CodeIgniter\BaseModel->findAll()
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(780): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+ERROR - 2021-12-26 10:38:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-12-26 10:38:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\BaseController.php(55): CodeIgniter\BaseModel->findAll()
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(780): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}

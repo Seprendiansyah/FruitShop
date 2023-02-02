@@ -1,0 +1,26 @@
+CRITICAL - 2021-12-23 08:43:03 --> Invalid argument supplied for foreach()
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\keranjang\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\src\\Project-...', 22, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(25): view('keranjang/index', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->index()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2021-12-23 11:32:03 --> Call to a member function where() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang2->index()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang2))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-23 13:13:19 --> Too few arguments to function App\Controllers\Keranjang::delete(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->delete()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}

@@ -1,0 +1,229 @@
+CRITICAL - 2022-01-04 01:00:59 --> You do not have sufficient permissions to access that page.
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 01:07:58 --> Invalid file: /barang2/index.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang2/index....')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/barang2/index', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Barang.php(33): view('/barang2/index', Array)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->index()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2022-01-04 01:08:39 --> Invalid file: /barang2/index.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang2/index....')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/barang2/index', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Barang.php(33): view('/barang2/index', Array)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->index()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2022-01-04 09:02:28 --> Too few arguments to function App\Controllers\Admin::barangdelete(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdelete()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 09:03:29 --> Too few arguments to function App\Controllers\Admin::barangdelete(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdelete()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+ERROR - 2022-01-04 09:14:22 --> Cannot delete or update a parent row: a foreign key constraint fails (`gigih_shop`.`keranjang`, CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`barang_id`) REFERENCES `barang` (`barang_id`))
+ERROR - 2022-01-04 09:14:32 --> Cannot delete or update a parent row: a foreign key constraint fails (`gigih_shop`.`keranjang`, CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`barang_id`) REFERENCES `barang` (`barang_id`))
+ERROR - 2022-01-04 09:16:20 --> Cannot delete or update a parent row: a foreign key constraint fails (`gigih_shop`.`keranjang`, CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`barang_id`) REFERENCES `barang` (`barang_id`))
+ERROR - 2022-01-04 09:33:48 --> Cannot delete or update a parent row: a foreign key constraint fails (`gigih_shop`.`keranjang`, CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`barang_id`) REFERENCES `barang` (`barang_id`))
+ERROR - 2022-01-04 09:34:18 --> Cannot delete or update a parent row: a foreign key constraint fails (`gigih_shop`.`keranjang`, CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`barang_id`) REFERENCES `barang` (`barang_id`))
+ERROR - 2022-01-04 09:35:05 --> Cannot delete or update a parent row: a foreign key constraint fails (`gigih_shop`.`keranjang`, CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`barang_id`) REFERENCES `barang` (`barang_id`))
+CRITICAL - 2022-01-04 09:59:12 --> Call to a member function getError() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/admin/barangDe...', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(38): view('/admin/barangDe...')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdetail('1')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}
+CRITICAL - 2022-01-04 14:37:34 --> Too few arguments to function App\Controllers\Admin::barangdetail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdetail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 14:38:57 --> Too few arguments to function App\Controllers\Admin::barangdetail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdetail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 14:39:13 --> Too few arguments to function App\Controllers\Admin::barangdetail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdetail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 15:32:24 --> Call to a member function move() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangupdate('1')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 16:10:20 --> The original file is not a valid file.
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(118): CodeIgniter\HTTP\Files\UploadedFile->move('img/barang/')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangupdate('1')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-04 16:10:51 --> The original file is not a valid file.
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(118): CodeIgniter\HTTP\Files\UploadedFile->move('img/barang/')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangupdate('1')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-04 17:14:29 --> Invalid file: admin/barangCreate.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/barangCre...')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/barangCre...', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(154): view('admin/barangCre...')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangcreate()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2022-01-04 17:14:36 --> Invalid file: admin/barangCreate.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/barangCre...')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/barangCre...', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(154): view('admin/barangCre...')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangcreate()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2022-01-04 17:18:34 --> Call to a member function hasError() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/barangCre...', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(154): view('admin/barangCre...')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangcreate()
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}
+ERROR - 2022-01-04 17:44:28 --> Cannot add or update a child row: a foreign key constraint fails (`gigih_shop`.`barang`, CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`kategori_id`) REFERENCES `kategori` (`kategori_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-01-04 17:47:23 --> Cannot add or update a child row: a foreign key constraint fails (`gigih_shop`.`barang`, CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`kategori_id`) REFERENCES `kategori` (`kategori_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-01-04 17:56:23 --> Cannot add or update a child row: a foreign key constraint fails (`gigih_shop`.`barang`, CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`kategori_id`) REFERENCES `kategori` (`kategori_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-01-04 18:01:02 --> Cannot add or update a child row: a foreign key constraint fails (`gigih_shop`.`barang`, CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`kategori_id`) REFERENCES `kategori` (`kategori_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-01-04 18:02:13 --> Cannot add or update a child row: a foreign key constraint fails (`gigih_shop`.`barang`, CONSTRAINT `barang_ibfk_1` FOREIGN KEY (`kategori_id`) REFERENCES `kategori` (`kategori_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-01-04 18:06:48 --> unlink(img/barang/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/bara...', 'C:\\src\\Project-...', 33, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(33): unlink('img/barang/')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->barangdelete('24')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-04 18:53:46 --> Call to a member function paginate() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 21:17:36 --> Too few arguments to function App\Controllers\Admin::kotacreate(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotacreate()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-04 22:21:57 --> Invalid file: admin/kotaedit.php
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/kotaedit....')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/kotaedit', Array, true)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(303): view('admin/kotaedit')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotaedit('1')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#8 {main}
+CRITICAL - 2022-01-04 22:27:14 --> Call to a member function hasError() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/kotaEdit', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(308): view('admin/kotaEdit', Array)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotaedit('4')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}
+CRITICAL - 2022-01-04 22:27:57 --> Call to a member function hasError() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/kotaEdit', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(309): view('admin/kotaEdit', Array)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotaedit('4')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}
+CRITICAL - 2022-01-04 22:28:03 --> Call to a member function hasError() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/kotaEdit', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(309): view('admin/kotaEdit', Array)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotaedit('4')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}
+CRITICAL - 2022-01-04 22:28:26 --> Illegal string offset 'kota'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\admin\kotaEdit.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 12, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/kotaEdit', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(309): view('admin/kotaEdit', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotaedit('3')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2022-01-04 22:28:45 --> Call to a member function getError() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('admin/kotaEdit', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(309): view('admin/kotaEdit', Array)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->kotaedit('3')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}

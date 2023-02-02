@@ -1,0 +1,47 @@
+CRITICAL - 2021-12-25 08:01:42 --> Call to undefined function set_radio()
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/keranjang/deta...', Array, true)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Keranjang.php(87): view('/keranjang/deta...', Array)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail('4')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#9 {main}
+CRITICAL - 2021-12-25 08:40:22 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-25 08:43:36 --> Call to a member function post() on null
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->update('4')
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-25 13:07:20 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-25 13:08:05 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2021-12-25 13:08:29 --> Too few arguments to function App\Controllers\Keranjang::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+ERROR - 2021-12-25 19:21:45 --> Column 'spesifikasi' cannot be null

@@ -1,0 +1,215 @@
+ERROR - 2022-01-05 02:28:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-05 02:28:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '3')
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\vendor\myth\auth\src\Authentication\AuthenticationBase.php(137): CodeIgniter\BaseModel->find('3')
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(70): Myth\Auth\Authentication\AuthenticationBase->isLoggedIn()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\vendor\myth\auth\src\Helpers\auth_helper.php(28): Myth\Auth\Authentication\LocalAuthenticator->check()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\BaseController.php(54): user()
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(780): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#10 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#13 {main}
+CRITICAL - 2022-01-05 02:54:47 --> Invalid argument supplied for foreach()
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\admin\pesanan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\src\\Project-...', 34, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/admin/pesanan', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(473): view('/admin/pesanan', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->pesanan()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2022-01-05 03:36:19 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\admin\pesanandetail.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 157, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/admin/pesanand...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(515): view('/admin/pesanand...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->pesanandetail('1')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2022-01-05 03:38:08 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\admin\pesanandetail.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 157, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/admin/pesanand...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(518): view('/admin/pesanand...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->pesanandetail('1')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2022-01-05 03:39:58 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\admin\pesanandetail.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 157, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/admin/pesanand...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(518): view('/admin/pesanand...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->pesanandetail('1')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2022-01-05 03:39:58 --> Illegal string offset 'nama_barang'
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\admin\pesanandetail.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\src\\Project-...', 157, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/admin/pesanand...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(518): view('/admin/pesanand...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->pesanandetail('1')
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+ERROR - 2022-01-05 15:38:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-05 15:38:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\BaseController.php(55): CodeIgniter\BaseModel->findAll()
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(780): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+ERROR - 2022-01-05 15:38:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-01-05 15:38:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\BaseController.php(55): CodeIgniter\BaseModel->findAll()
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(780): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
+CRITICAL - 2022-01-05 17:04:30 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:05:41 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:06:38 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:06:42 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:07:14 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:09:00 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:11:19 --> Too few arguments to function App\Controllers\Pesanan::detail(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Pesanan->detail()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 17:16:41 --> Too few arguments to function App\Controllers\Keranjang::update(), 0 passed in C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Keranjang->update()
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keranjang))
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#5 {main}
+CRITICAL - 2022-01-05 21:18:25 --> unlink(img/banner1.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/bann...', 'C:\\src\\Project-...', 450, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(450): unlink('img/banner1.jpg')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->bannerupdate('1')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-05 21:28:30 --> unlink(img/banner_2.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/bann...', 'C:\\src\\Project-...', 401, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(401): unlink('img/banner_2.jp...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->bannerdelete('2')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-05 21:32:16 --> unlink(img/banner_2.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/bann...', 'C:\\src\\Project-...', 401, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(401): unlink('img/banner_2.jp...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->bannerdelete('2')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-05 21:32:56 --> unlink(img/banner_2.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/bann...', 'C:\\src\\Project-...', 401, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Admin.php(401): unlink('img/banner_2.jp...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Admin->bannerdelete('2')
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#7 {main}
+CRITICAL - 2022-01-05 21:38:24 --> Invalid argument supplied for foreach()
+#0 C:\src\Project-Website-UpworkTeam\GigihShop\app\Views\barang\kategori3.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\src\\Project-...', 28, Array)
+#1 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(214): include('C:\\src\\Project-...')
+#2 C:\src\Project-Website-UpworkTeam\GigihShop\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\src\Project-Website-UpworkTeam\GigihShop\system\Common.php(1092): CodeIgniter\View\View->render('/barang/kategor...', Array, true)
+#4 C:\src\Project-Website-UpworkTeam\GigihShop\app\Controllers\Barang.php(65): view('/barang/kategor...', Array)
+#5 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(802): App\Controllers\Barang->kategori3()
+#6 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 C:\src\Project-Website-UpworkTeam\GigihShop\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\src\Project-Website-UpworkTeam\GigihShop\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\src\Project-Website-UpworkTeam\GigihShop\system\Commands\Server\rewrite.php(43): require_once('C:\\src\\Project-...')
+#10 {main}
